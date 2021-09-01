@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teorema de Pitagoras</title>
+</head>
+<body>
+    <main>
+        <!-- SECTION PARA CRIAR AS ENTRADAS E SAIDAS -->
+        <section> 
+            <h1>Teorema de Pitagoras</h1>
+            
+            <form class="form">
+                <h2>Calculadora</h2>
+             <!-- ENTRADA DO CATETO ADJACENTE -->
+             <label for="ca">Cateto Adjacente
+                 <input type="number" placeholder="Digite o Valor" id="ca" name="ca">
+             </label>
+             <!-- ENTRADA DO CATETO OPOSTO -->
+             <label for="co">Cateto Oposto
+                 <input type="number" placeholder="Digite o Valor" id="co" name="co">
+             </label>
+             <!-- SAIDA DO VALOR DA HIPOTENUSA -->
+             <label for="Hipotenusa">Hipotenusa
+                 <input name="hipotenusa"disabled="disabled"  id="hipotenusa" value="">
+             </label>
+             <!-- BOTÃO RESULTADO -->
+             <button id="button">Resultado</button>
+            
+            </form>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
